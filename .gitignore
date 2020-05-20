@@ -1,6 +1,0 @@
-# Files To Ignore #
-###################
-node_modules
-*.css
-.cache
-build
