@@ -5,7 +5,9 @@
 		position: relative;
 		display: inline-block;
 		border: 3px solid black;
-		padding-bottom: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
 	}
 	.dropdown-content {
 		display: none;
@@ -31,6 +33,8 @@
         display: inline-block;
         border: 3px solid black;
         padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .dropdown-link-content {
