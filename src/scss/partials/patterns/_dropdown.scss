@@ -24,3 +24,30 @@
 		}
 	}
 }
+
+.cd-dropdowns {
+    .dropdownTwo {
+        position: relative;
+        display: inline-block;
+        border: 3px solid black;
+        padding-bottom: 10px;
+    }
+
+    .dropdown-link-content {
+        display: none;
+        position: absolute;
+        background-color: gray;
+        min-width: 400px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		padding: 12px 16px;
+		z-index: 1;
+    }
+}
+
+.dropdownTwo {
+    &:hover {
+        .dropdown-link-content {
+            display: block;
+        }
+    }
+}
