@@ -9,5 +9,62 @@ xBackground
 
 body {
     /* this is the page background */
-    background-color: $color-5;
+    background-color: $color-1;
   }
+
+.cd-purpose {
+  .cd-box {
+    p {
+      color: $color-1;
+    }
+  }
+}
+
+.cd-colors {
+  .cd-box {
+    color: $color-1;
+  }
+}
+
+.cd-typography {
+  .cd-box {
+    h1, p {
+      color: $color-1;
+    }
+  }
+}
+
+.cd-navigation {
+  .cd-box {
+    color: $color-1;
+  }
+  .cd-box {
+    a {
+      color: #c29653;
+    }
+  }
+}
+
+.cd-dropdowns {
+  .cd-box {
+    .dropdown {
+      background-color: $color-1;
+    }
+  }
+  .cd-box {
+    .dropdownTwo {
+      background-color: $color-1;
+    }
+  }
+}
+
+.cd-wireframes {
+  .cd-box {
+    figure {
+      figcaption {
+        color: $color-1;
+      }
+    }
+  }
+}
+
