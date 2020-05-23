@@ -416,7 +416,7 @@ section {
 
 /* xColor section - basic style */
 
-.cd-colors {
+/*.cd-colors {
 
 	li {
 		text-align: center;
@@ -433,9 +433,9 @@ section {
 		width: 100%;
 		padding: 50% 0;
 
-		&::before, &::after {
+		&::before, &::after {*/
 			/* lighter and darker color shades of the same swatch */
-			content: '';
+			/*content: '';
 			position: absolute;
 			bottom: 0;
 			width: 50%;
@@ -543,7 +543,7 @@ section {
 			padding: 2em;
 		}
 	} 
-}
+}*/
 
 /* xTypography section - basic style */
 

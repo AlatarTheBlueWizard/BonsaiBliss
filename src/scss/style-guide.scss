@@ -10,12 +10,20 @@ xBackground
 -------------------------------- */
 @import 'partials/layout/background';
 
+
 /* -------------------------------- 
 
 xPatterns
 
 -------------------------------- */
 @import 'partials/patterns/patterns';
+
+/* -------------------------------- 
+
+xColors
+
+-------------------------------- */
+@import 'partials/config/colors';
 
 /* -------------------------------- 
 
@@ -39,12 +47,6 @@ xTypography
 -------------------------------- */
 @import 'partials/config/typography';
 
-/* -------------------------------- 
-
-xButtons 
-
--------------------------------- */
-@import 'partials/patterns/buttons';
 
 /* --------------------------------
 
@@ -53,19 +55,7 @@ xDropdown
 ----------------------------------*/
 @import 'partials/patterns/dropdown';
 
-/* --------------------------------
 
-xList
-
-----------------------------------*/
-@import 'partials/config/lists';
-
-/* -------------------------------- 
-
-xImages 
-
--------------------------------- */
-@import 'partials/config/images';
 
 // basic-style.scss
 @import 'partials/config/basic-style';
