@@ -170,3 +170,19 @@ header {
         margin: 2% 5%;
     }
 }*/
+
+.cd-navigation {
+  .cd-box {
+    .prim, .sec, .oth {
+      display: inline-block;
+      vertical-align: top;
+      background-color: $color-4;
+      margin-right: 30px;
+      margin-left: 25px;
+    }
+    li {
+      list-style-type: "円相";
+      background-color: $color-4;
+    }
+  }
+}
