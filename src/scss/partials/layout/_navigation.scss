@@ -170,3 +170,12 @@ header {
         margin: 2% 5%;
     }
 }*/
+
+.cd-navigation {
+  .cd-box {
+    .cd-primary-nav {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
